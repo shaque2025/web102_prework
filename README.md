@@ -1,10 +1,10 @@
 # WEB102 Prework - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Syeda Haque**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -34,7 +34,17 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+1) State Management: Clearing the DOM using deleteChildElements before reapplying filters to prevent duplicate game cards from stacking.
+
+2) Data Aggregation: Using the .reduce() method to accurately sum total backers and pledged amounts across the entire JSON dataset.
+
+3) Dynamic UI Pluralization: Implementing ternary operators to ensure the summary text is grammatically correct (e.g., "1 game" vs. "7 games").
+
+4) Data Readability: Utilizing toLocaleString() to format large integers into human-readable currency and backer counts with proper punctuation.
+
+5) Array Manipulation: Sorting objects by numerical values and using destructuring with the spread operator to isolate the top-performing games.
+
+6) Template Literals: Nesting complex logic and variables within backticks to create clean, dynamic HTML strings without messy concatenation.
 
 ## License
 
